@@ -22,5 +22,5 @@ How to Use:
   1. Create an AMazeBuilder in the Scene (I'd create a BP Child)
   2. Create AMazeData with some 100x100x100 Cube, some White Material, CellSize: 100, WallHeight: 0.7, WallWidth: 0.12;
   3. Set MazeData Variable in AMazeBuilder Editor
-  4. Create MazeGen with NewObject (Setup Parameters how you like)
+  4. Create MazeGen with NewObject (Setup Parameters how you like, Dimension should be an even number)
   5. Call BuildMaze from NewObject
