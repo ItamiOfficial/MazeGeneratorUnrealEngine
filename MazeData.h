@@ -9,7 +9,7 @@
 
 
 UCLASS(BlueprintType)
-class MAZEGENERATOR_API UMazeData : public UDataAsset
+class MICROMOUSE_API UMazeData : public UDataAsset
 {
 	GENERATED_BODY()
 

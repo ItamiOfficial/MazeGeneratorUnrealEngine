@@ -11,7 +11,7 @@ class UMazeData;
 class UMazeGen;
 
 UCLASS(Blueprintable, BlueprintType)
-class MAZEGENERATOR_API AMazeBuilder : public AActor
+class MICROMOUSE_API AMazeBuilder : public AActor
 {
 	GENERATED_BODY()
 	
@@ -37,6 +37,5 @@ public:
 	void BuildMaze(UMazeGen* MazeGenerator);
 
 private:
-
-	void PlaceWall(const FIntVector2 A, const FIntVector2 B) const;
+	int32 PlaceWall(FIntVector2 A, FIntVector2 B) const;
 };

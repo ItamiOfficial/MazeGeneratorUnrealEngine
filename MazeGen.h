@@ -64,7 +64,7 @@ public:
 
 
 UCLASS(BlueprintType, Blueprintable)
-class MAZEGENERATOR_API UMazeGen : public UObject
+class MICROMOUSE_API UMazeGen : public UObject
 {
 	GENERATED_BODY()
 
